@@ -24,7 +24,13 @@ Develop skills that are essential for deploying production machine learning mode
 
 
 ### 2. **Building a Reproducible Model Workflow**
-This course empowers the students to be more efficient, effective, and productive in modern, real-world ML projects by adopting best practices around reproducible workflows. In particular, it teaches the fundamentals of MLops and how to: a) create a clean, organized, reproducible, end-to-end machine learning pipeline from scratch using MLflow b) clean and validate the data using pytest c) track experiments, code, and results using GitHub and Weights & Biases d) select the best-performing model for production and e) deploy a model using MLflow. Along the way, it also touches on other technologies like Kubernetes, Kubeflow, and Great Expectations and how they relate to the content of the class.
+This course empowers the students to be more efficient, effective, and productive in modern, real-world ML projects by adopting best practices around reproducible workflows. In particular, it teaches the fundamentals of MLops and how to:    
+a) create a clean, organized, reproducible, end-to-end machine learning pipeline from scratch using MLflow  
+b) clean and validate the data using pytest  
+c) track experiments, code, and results using GitHub and Weights & Biases   
+d) select the best-performing model for production  
+e) deploy a model using MLflow   
+Along the way, it also touches on other technologies like Kubernetes, Kubeflow, and Great Expectations and how they relate to the content of the class.
 
   **[Project 2: Build an ML Pipeline for Short-term Rental Prices in NYC](https://github.com/weichiet/nd0821-c2-build-model-workflow-starter)**
   * Students will write a Machine Learning Pipeline to solve the following problem: a property management company is renting rooms and properties in New York for short periods on various rental platforms. They need to estimate the typical price for a given property based on the price of similar properties. The company receives new data in bulk every week, so the model needs to be retrained with the same cadence, necessitating a reusable pipeline. The students will write an end-to-end pipeline covering data fetching, validation, segregation, train and validation, test, and release. They will run it on an initial data sample, and then re-run it on a new data sample simulating a new data delivery.
